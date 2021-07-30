@@ -5,11 +5,11 @@ const isServerSideRendered = () => {
 }
 
 if (process.env.NODE_ENV !== 'production' && !isServerSideRendered()) {
-    import('react-dom').then((ReactDOM) => {
-        import('@axe-core/react').then((axe) => {
-            axe.default(React, ReactDOM, 1000, {})
-        })
+  import('react-dom').then((ReactDOM) => {
+    import('@axe-core/react').then((axe) => {
+        axe.default(React, ReactDOM, 1000, {})
     })
+  })
 }
 
 const App = (): React.ReactElement => (
