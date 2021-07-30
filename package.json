@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/CondeNast/tny-tech-test#readme",
   "devDependencies": {
+    "@axe-core/react": "^4.2.2",
     "@babel/core": "^7.14.3",
     "@babel/plugin-transform-runtime": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
