@@ -9,9 +9,9 @@
     "test:cache": "jest --clearCache",
     "test:coverage": "jest --coverage --colors",
     "dev": "NODE_ENV=development next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "NODE_ENV=development next build",
+    "start": "NODE_ENV=development next start",
+    "lint": "NODE_ENV=development next lint"
   },
   "repository": {
     "type": "git",
@@ -42,6 +42,7 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^7.31.0",
+    "eslint-config-next": "^11.0.1",
     "eslint-plugin-react": "^7.24.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "fork-ts-checker-webpack-plugin": "^6.2.13",
